@@ -1,0 +1,828 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TJ382N8PL9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TJ382N8PL9');
+</script>
+
+<script>
+  // تحميل واجهة YouTube API
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  var player;
+
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('videoUhera', {
+      events: {
+        'onStateChange': onPlayerStateChange
+      }
+    });
+  }
+
+  function onPlayerStateChange(event) {
+    if (event.data == YT.PlayerState.PLAYING) {
+      gtag('event', 'play_video', {
+        'event_category': 'video',
+        'event_label': 'UHERA Routine Video'
+      });
+    }
+  }
+</script>
+
+
+
+<!-- Open Graph الأساسي لمشاركة الرابط -->
+<meta property="og:title" content="روتين UHERA لعلاج تساقط الشعر">
+<meta property="og:description" content="روتين UHERA لعلاج التساقط من أول أسبوع – شامبو + بلسم + أمبولات بكفاءة عالية.">
+<meta property="og:image" content="https://lariinaz.com/wp-content/uploads/2025/04/logo.png">
+<meta property="og:url" content="https://vaneersa.com/ar/مجموعة-الكثافة-من-يوهيرا/p200187087">
+<meta property="og:type" content="product">
+
+<!-- Twitter Cards (اختياري لكن مفيد) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="روتين UHERA لعلاج تساقط الشعر">
+<meta name="twitter:description" content="روتين UHERA يعيد لشعرك الحياة. خصم خاص لفترة محدودة">
+<meta name="twitter:image" content="https://lariinaz.com/wp-content/uploads/2025/04/logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<meta property="og:type" content="product">
+
+  <link rel="preload" as="image" href="1.png">
+  <link rel="preload" as="image" href="9.png">
+  
+  <title> روتين علاج تساقط الشعر من يوهيرا - ڤانير</title>
+  <style>
+
+    
+
+.hero-desktop,
+.hero-mobile {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .hero-desktop {
+    display: block !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-mobile {
+    display: block !important;
+  }
+}
+
+
+.offer-desktop {
+  display: block;
+}
+.offer-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .offer-desktop {
+    display: none;
+  }
+  .offer-mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .cta-button {
+    width: 100%;
+  }
+}
+
+
+.faq-section {
+  background: #fdf6f6; /* لون خلفية وردي فاتح ناعم */
+  padding: 30px 20px;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  max-width: 850px;
+  margin: 40px auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  width: 100%;
+  text-align: right;
+  background: none;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 10px;
+  cursor: pointer;
+  position: relative;
+  color: #333;
+}
+
+.faq-toggle {
+  float: left;
+  font-size: 22px;
+  transition: transform 0.3s;
+  color: #d10000;
+}
+
+.faq-answer {
+  display: none;
+  padding: 0 10px 15px 10px;
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+
+/* تحسينات للموبايل */
+@media (max-width: 600px) {
+  .faq-section {
+    padding: 20px 15px;
+    border-radius: 12px;
+  }
+
+  .faq-question {
+    font-size: 16px;
+    padding: 12px 8px;
+  }
+
+  .faq-answer {
+    font-size: 14px;
+  }
+}
+
+.trust-badges {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 20px 10px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin: 30px auto;
+  max-width: 100%;
+  gap: 10px;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  scroll-snap-type: x mandatory;
+}
+
+
+
+
+.badge {
+  flex: 1 1 220px;
+  text-align: center;
+}
+
+.badge-icon {
+  background-color: #fff0f5;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.badge-icon img {
+  width: 38px;
+  height: 38px;
+  filter: none; /* تبقي الألوان */
+}
+
+.badge p {
+  font-size: 15px;
+  color: #444;
+  margin: 0;
+  font-weight: 500;
+}
+
+.testimonials-slider {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.testimonials-container {
+  display: flex;
+  gap: 20px;
+  padding: 10px 0;
+  scroll-snap-type: x proximity; /* ✅ الصحيح */
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.testimonial {
+  flex: 0 0 280px;
+  background: #fdf6f6;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  scroll-snap-align: start;
+  text-align: right;
+  min-height: 170px;
+}
+
+.stars {
+  color: gold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+.why-uhera {
+  background: #fff0f5;
+  padding: 30px 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: right;
+  max-width: 800px;
+}
+
+.why-uhera h2 {
+  font-size: 24px;
+  color: #222;
+}
+
+.why-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 2;
+  color: #444;
+}
+
+.why-list li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-right: 10px;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-4px); }
+  40% { transform: translateX(4px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+  100% { transform: translateX(0); }
+}
+
+.cta-button.shake-once {
+  animation: shake 0.6s ease-in-out;
+}
+
+.float-slow {
+  animation: float-slow 3.5s ease-in-out infinite;
+}
+
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.no-animation-button {
+  background: #d10000;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+    body { margin: 0; font-family: sans-serif; background: #fff0f5; color: #333; }
+    .section {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+    .cta-button {
+      background: #d10000;
+      color: #fff;
+      padding: 15px 30px;
+      border: none;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      animation: pulse 2s infinite;
+      margin-top: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    img.full-width {
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+    }
+    .product-pair {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+    }
+    .product-pair img {
+      max-width: 100%;
+      width: 400px;
+      border-radius: 8px;
+    }
+  
+
+
+    .popup-banner {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 14px 22px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  font-weight: bold;
+  font-size: 15px;
+  color: #333;
+  display: none;
+  z-index: 999;
+  animation: slideUp 0.4s ease forwards;
+  text-align: center;
+
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float-up-down {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+
+
+
+  </style>
+</head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-55W7ZRW7');</script>
+  <!-- End Google Tag Manager -->
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55W7ZRW7"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+  <!-- نافذة منبثقة -->
+  <div class="popup-banner" id="popupBanner"></div>
+
+  <!-- Hero -->
+  <!-- صور الهيدر للجوال والديسكتوب -->
+<!-- صور الهيدر للجوال والديسكتوب -->
+<div class="section">
+  <picture>
+    <source media="(max-width: 768px)" srcset="6666.png">
+    <img src="1.png" alt="UHERA Hero" class="full-width">
+  </picture>
+  
+</div>
+
+
+
+
+  <!-- Offer -->
+  <div class="section">
+    <picture>
+      <source media="(max-width: 768px)" srcset="7777.png">
+      <img src="9.png" alt="عرض خاص UHERA" class="full-width">
+    </picture>
+  </div>
+
+  <div class="section">
+    <a href="https://vaneersa.com/ar/مجموعة-الكثافة-من-يوهيرا/p200187087" target="_blank">
+      <button class="cta-button">اطلبي مجموعتك الآن</button>
+    </a>
+  </div>
+  
+<!-- قسم نوران -->
+<div class="section doctor-section" style="max-width: 1100px; margin: 40px auto; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: center; background: #fff; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); padding: 30px 20px;">
+  
+  <!-- صورة نوران -->
+  <div style="flex: 1 1 300px; text-align: center;">
+    <img src="nnn.png" alt="نوران تتحدث عن UHERA" style="width: 100%; max-width: 300px; border-radius: 12px;">
+  </div>
+
+  <!-- النص -->
+  <div style="flex: 1 1 350px; text-align: right;">
+    <h2 style="margin-bottom: 15px; color: #040303;">نوران | NORAN</h2>
+    <p style="font-size: 16px; line-height: 1.9; color: #444;">
+      نوران شاركت تجربتها الواقعية مع مجموعة <strong>UHERA</strong>، وأوضحت كيف ساهمت المجموعة في <strong>إيقاف تساقط الشعر</strong> بوضوح ومنح شعرها <strong>لمعان صحي وقوة طبيعية</strong>.
+      وأكدت أن المنتجات <strong>لا تترك أي ملمس دهني</strong>، بل تمنح الشعر خفة وانتعاش حتى مع الاستخدام المتكرر.<br><br>
+      كما أشادت بمكونات المجموعة، حيث تحتوي على:
+      <ul style="list-style: disc; padding-right: 20px; color: #444;">
+        <li><strong>زيت نواة الأرغان</strong> المعروف بتقوية الشعر وتغذيته.</li>
+        <li><strong>حبة البركة</strong> التي تدعم صحة فروة الرأس.</li>
+        <li>وخلو المنتجات من <strong>السلفات والبارابين</strong> الضارة بالشعر.</li>
+      </ul>
+      واختتمت نصيحتها <strong>بضرورة الاهتمام بصحة الشعر من الجذور، واختيار منتجات طبيعية وآمنة تُظهر الفرق من أول أسبوع.</strong>
+    </p>
+  </div>
+
+</div>
+
+
+
+  <!-- Products -->
+  <div class="product-pair">
+    <img src="JNSOQUY5hXHlVX1EZTIEZsWODWMLGTUjxD20Gbgg.webp" alt="أمبولات UHERA">
+    <img src="fAoT47lFD4GQzKwEkFX1gjiEr9Pp6pJqfc5UvY6K.webp" alt="شامبو وبلسم UHERA">
+  </div>
+
+  <!-- CTA -->
+  
+
+
+  <!-- تسويق -->
+  <div class="section">
+    <h2>يوهيرا ما يوقف التساقط وبس، يهتم بجذور الشعر ويغذيها، عشان يرجّع لك شعرك أقوى وأنعم ويبان عليه الصحة.</h2>
+    <p>تركيبة UHERA مدروسة تحتوي على مكونات طبيعية تعيد لشعرك الحياة من أول أسبوع استخدام.</p>
+    <a href="https://vaneersa.com/ar/مجموعة-الكثافة-من-يوهيرا/p200187087" target="_blank">
+      
+    </a>
+  </div>
+
+  <!-- قسم الدكتور ياسر التميمي -->
+<div class="section doctor-section" style="max-width: 1100px; margin: 40px auto; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: center; background: #fff; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); padding: 30px 20px;">
+  
+  <!-- صورة الدكتور -->
+  <div style="flex: 1 1 300px; text-align: center;">
+    <img src="YYY.png" alt="الدكتور ياسر التميمي يشرح عن UHERA" style="width: 100%; max-width: 300px; border-radius: 12px;">
+  </div>
+
+  <!-- النص -->
+  <div style="flex: 1 1 350px; text-align: right;">
+    <h2 style="margin-bottom: 15px; color: #040303;">الدكتور ياسر التميمي</h2>
+    <p style="font-size: 16px; line-height: 1.9; color: #444;">
+      الدكتور ياسر التميمي أشاد بفعالية مجموعة UHERA في إيقاف تساقط الشعر وتحفيز البصيلات على النمو. 
+      وأوضح أنها تحتوي على مكونات طبيعية آمنة ومناسبة لجميع أنواع الشعر، حتى الشعر المصبوغ. 
+      وأكد أن النتائج تبدأ بالظهور من أول أسبوع، خاصة عند الالتزام بالروتين الصحيح.
+    </p>
+  </div>
+
+</div>
+
+
+
+
+  <div class="section float-slow" style="background: #8b2e5d; padding: 30px 20px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 40px auto; text-align: center; color: #fff;">
+    <h2 style="margin-bottom: 10px;">عرض خاص لفترة محدودة</h2>
+  
+    <p style="font-size: 26px; font-weight: bold; margin: 10px 0;">
+      180 ريال فقط
+    </p>
+    
+  
+    <p style="font-size: 16px; color: #ffd9e3; margin-bottom: 20px;">
+      <span style="text-decoration: line-through; color: #eee;">253 ريال</span>
+      <span>وفّري الآن 73 ريال</span>
+
+    </p>
+  
+    <a href="https://vaneersa.com/ar/مجموعة-الكثافة-من-يوهيرا/p200187087" target="_blank">
+      <button class="no-animation-button" style="margin-top: 10px;">اطلبي الآن قبل انتهاء العرض</button>
+    </a>
+  </div>
+  
+  
+
+  <!-- فيديو تعريفي -->
+  <div class="section" style="background: #fff; padding: 30px 20px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); margin: 40px auto;">
+    <h2 style="margin-bottom: 10px;">كيف تستخدمين <span style="color: #d10000;">UHERA</span> لتحقيق أفضل النتائج؟</h2>
+    <p style="color: #555; margin-bottom: 20px;">شاهدي هذا الفيديو لتتعرفي على روتين العناية المثالي من أول استخدام.</p>
+  
+    <div style="
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 20px;">
+      
+      <iframe 
+      id="videoUhera"
+      src="https://www.youtube.com/embed/aD7_zwsYpqs"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+    
+
+    </div>
+  
+    <ul style="text-align: right; font-size: 15px; line-height: 2; color: #444; padding-right: 20px;">
+      <li>🧼 ابدئي بغسل شعرك بالشامبو مرتين إلى ثلاث مرات أسبوعيًا.</li>
+      <li>🧴 استخدمي البلسم لترطيب وتنعيم فوري بعد الشامبو.</li>
+      <li>💧 وزّعي الأمبولات على فروة الرأس ودلكيها بلطف، دون شطف.</li>
+      <li>⏳ استمري لمدة 4 أسابيع ولاحظي الفرق بنفسك!</li>
+    </ul>
+  
+
+  </div>
+  
+  
+  
+  
+
+  <div class="section">
+    <h2>ليش آلاف العملاء يثقون بـ UHERA؟</h2>
+    <p>لأن النتائج تتكلم — شعر أكثف، صحي، وراحة نفسية بعد ما يوقف التساقط.</p>
+    <a href="https://vaneersa.com/ar/مجموعة-الكثافة-من-يوهيرا/p200187087" target="_blank">
+      <button class="cta-button">اطلبي الآن</button>
+    </a>
+  </div>
+
+  <div class="section faq-section">
+    <h2 style="text-align: center; margin-bottom: 30px;">أسئلة شائعة</h2>
+  
+    <div class="faq-item">
+      <button class="faq-question">ما هي مكونات المجموعة؟<span class="faq-toggle">+</span></button>
+      <div class="faq-answer">شامبو + بلسم + أمبولات لعلاج التساقط وتقوية الشعر.</div>
+    </div>
+  
+    <div class="faq-item">
+      <button class="faq-question">كيف أستخدم المنتجات؟<span class="faq-toggle">+</span></button>
+      <div class="faq-answer">شامبو وبلسم 2-3 مرات بالأسبوع، الأمبولات على فروة نظيفة دون شطف.</div>
+    </div>
+  
+    <div class="faq-item">
+      <button class="faq-question">متى تظهر النتائج؟<span class="faq-toggle">+</span></button>
+      <div class="faq-answer">عادةً خلال 4 إلى 6 أسابيع من الاستخدام المنتظم.</div>
+    </div>
+  
+    <div class="faq-item">
+      <button class="faq-question">هل تناسب جميع أنواع الشعر؟<span class="faq-toggle">+</span></button>
+      <div class="faq-answer">نعم، بما في ذلك الشعر المصبوغ والمعالج.</div>
+    </div>
+  
+    <div class="faq-item">
+      <button class="faq-question">هل تحتوي على مواد ضارة؟<span class="faq-toggle">+</span></button>
+      <div class="faq-answer">لا، خالية من السلفات والبارابين وآمنة للاستخدام المستمر.</div>
+    </div>
+  
+    <div class="faq-item">
+      <button class="faq-question">هل تناسب الرجال والنساء؟<span class="faq-toggle">+</span></button>
+      <div class="faq-answer">نعم، مناسبة للجميع.</div>
+    </div>
+  
+    <div class="faq-item">
+      <button class="faq-question">هل تُعالج القشرة؟<span class="faq-toggle">+</span></button>
+      <div class="faq-answer">لا تعالجها مباشرة، لكنها تحسّن صحة الفروة وقد تقلل منها.</div>
+    </div>
+  
+    <div class="faq-item">
+      <button class="faq-question">هل يمكن استخدام المنتجات يوميًا؟<span class="faq-toggle">+</span></button>
+      <div class="faq-answer">يفضل 2-3 مرات أسبوعيًا، إلا إذا أوصى مختص بخلاف ذلك.</div>
+    </div>
+  </div>
+  
+  <div class="section why-uhera" style="margin: 40px auto;">
+    <h2 style="margin-bottom: 20px;">ليش تختارين <span style="color: #d10000;">UHERA</span>؟</h2>
+    <ul class="why-list">
+      <li>✨ نتائج ملموسة من أول أسبوع استخدام</li>
+      <li>🌿 تركيبة طبيعية وآمنة، خالية من السلفات والبارابين</li>
+      <li>❤️ موثوق من آلاف العميلات بتقييمات 5 نجوم</li>
+      <li>💆‍♀️ مناسب لكل أنواع الشعر، حتى المصبوغ والتالف</li>
+      <li>🧴 تحتوي على أمبولات مركّزة توقف التساقط وتعزز الكثافة</li>
+    </ul>
+  </div>
+  
+
+  <!-- آراء العملاء -->
+ <!-- آراء العملاء -->
+<div class="section testimonials-slider">
+  <h2 style="text-align: center; margin-bottom: 20px;">وش قالوا العميلات؟</h2>
+
+  <div class="testimonials-container" id="testimonialsSlider">
+    <div class="testimonial">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>"من أول أسبوع لاحظت أن التساقط خف كثير، وريحتها فخمة!"</p>
+      <p><strong>- نورة. ج</strong></p>
+    </div>
+
+    <div class="testimonial">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>"كنت أجرب منتجات كثير لكن هذا فعلاً فرق معي. شكراً يوهيرا!"</p>
+      <p><strong>- سارة. ع</strong></p>
+    </div>
+
+    <div class="testimonial">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>"الشعر صار أنعم، والتسريح صار أسهل، أحبه جداً."</p>
+      <p><strong>- روان. م</strong></p>
+    </div>
+
+    <div class="testimonial">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>"كنت فاقدة الأمل، لكن المجموعة فعلاً أنقذت شعري!"</p>
+      <p><strong>- لجين. ع</strong></p>
+    </div>
+
+    <div class="testimonial">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>"لاحظت فرق في الكثافة من الأسبوع الثالث فقط!"</p>
+      <p><strong>- عبير. م</strong></p>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+
+  <div class="section trust-badges">
+    <div class="badge">
+      <img src="ccc.png" alt="توصيل سريع">
+      <p>توصيل سريع لجميع المدن</p>
+    </div>
+    <div class="badge">
+      <img src="ddd.png" alt="دفع آمن">
+      <p>دفع إلكتروني آمن 100%</p>
+    </div>
+    <div class="badge">
+      <img src="ggg.png" alt="ضمان استرجاع">
+      <p>اصلي 100%</p>
+    </div>
+  </div>
+  
+  <div class="section" style="background: #fff0f5; padding: 30px; border-radius: 12px; margin-bottom: 20px;">
+    <h3 style="margin-bottom: 10px;">العرض سينتهي خلال:</h3>
+    <div id="countdown" style="font-size: 24px; font-weight: bold; color: #d10000;"></div>
+  </div>
+  
+  <div class="section" style="margin-bottom: 80px;">
+    <a href="https://vaneersa.com/ar/مجموعة-الكثافة-من-يوهيرا/p200187087" target="_blank">
+      <button class="cta-button">شراء الان</button>
+    </a>
+  </div>
+  
+  
+  
+  
+
+  <script>
+    // تشغيل النافذة المنبثقة بعد 5 ثواني
+    setTimeout(() => {
+      const names = [
+        "سارة أحمد", "نورة العتيبي", "هدى الحربي",
+        "رهف العنزي", "جواهر المطيري", "منى الزهراني",
+        "أفنان الشهري", "بسمة", "عبير القحطاني"
+      ];
+      const name = names[Math.floor(Math.random() * names.length)];
+      const minutesAgo = Math.floor(Math.random() * 10) + 1; // من 1 إلى 30 دقيقة
+      const popup = document.getElementById('popupBanner');
+      popup.textContent = `🛒 ${name} اشترت المنتج قبل ${minutesAgo} دقيقة`;
+      popup.style.display = 'block';
+  
+      // تختفي بعد 8 ثواني
+      setTimeout(() => {
+        popup.style.display = 'none';
+      }, 8000);
+    }, 3000);
+  </script>
+<script>
+  const questions = document.querySelectorAll('.faq-question');
+
+  questions.forEach(q => {
+    q.addEventListener('click', () => {
+      const answer = q.nextElementSibling;
+      const toggle = q.querySelector('.faq-toggle');
+      const isOpen = answer.style.display === 'block';
+
+      // اغلق كل الأجوبة الأخرى
+      document.querySelectorAll('.faq-answer').forEach(a => a.style.display = 'none');
+      document.querySelectorAll('.faq-toggle').forEach(t => t.textContent = '+');
+
+      if (!isOpen) {
+        answer.style.display = 'block';
+        toggle.textContent = '–';
+      }
+    });
+  });
+</script>
+
+
+
+<script>
+  // العد التنازلي لـ 24 ساعة من وقت فتح الصفحة
+  const countdownEl = document.getElementById('countdown');
+  const targetTime = new Date().getTime() + 24 * 60 * 60 * 1000;
+
+  const updateCountdown = () => {
+    const now = new Date().getTime();
+    const diff = targetTime - now;
+
+    if (diff <= 0) {
+      countdownEl.textContent = "انتهى العرض!";
+      return;
+    }
+
+    const hours = Math.floor(diff / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+    countdownEl.textContent = `${hours} ساعة : ${minutes} دقيقة : ${seconds} ثانية`;
+  };
+
+  setInterval(updateCountdown, 1000);
+</script>
+
+<script>
+  setTimeout(() => {
+    const ctaButtons = document.querySelectorAll('.cta-button');
+    ctaButtons.forEach(btn => {
+      btn.classList.add('shake-once');
+
+      // إزالة الكلاس بعد انتهاء الحركة (0.6 ثانية)
+      setTimeout(() => {
+        btn.classList.remove('shake-once');
+      }, 700);
+    });
+  }, 4000); // بعد 4 ثواني من تحميل الصفحة
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const buttons = document.querySelectorAll('.cta-button');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        gtag('event', 'purchase_click', {
+          event_category: 'engagement',
+          event_label: 'CTA - اطلب الآن',
+          value: 1
+        });
+      });
+    });
+  });
+</script>
+
+
+
+
+
+</body>
+</html>
